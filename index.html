@@ -4,6 +4,8 @@
     <title>Log From BLAMMO!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -11,45 +13,50 @@
     <![endif]-->
   </head>
   <body>
-    <div>
+    <div class="container">
       <header>
-        <div>
-                <p><h2>Introducing</h2>
-                <p><h1>Log</h1>
-                <p><h2>From BLAMMO!</h2>
-        </div>
-        <div>
-            <img src="img/log_header.jpg" alt="It's Log!" width="251" height="201">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>Hey, kids!</h1>
+                    <h1>It's Log!</h1>
+                </div>
+                <div class="col-sm-4 col-sm-offset-3">
+                <img src="img/log_header.jpg" alt="It's Log!" width="251" height="201" class="img-responsive">
+                </div>
+            </div>
         </div>
       </header>
     <div>
         <iframe src="https://player.vimeo.com/video/9746957?title=0&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
-    <div>
-        <ul>
-            <li><h3>It's big!</h3></li>
-            <li><h3>It's heavy!</h3></li>
-            <li><h3>It's wood!</h3></li>
-        </ul>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>It's big!</h3>
+            <img src="img/log.png" alt="log" width="139" height="135">
+        </div>
+        <div class="col-sm-4">
+            <h3>It's heavy!</h3>
+            <img src="img/log.png" alt="log" width="139" height="135">
+        </div>
+        <div class="col-sm-4">
+            <h3>It's wood!</h3>
+            <img src="img/log.png" alt="log" width="139" height="135">
+        </div>
     </div>
     <div>
-        <ul>
-            <li><img src="img/log.png" alt="log" width="289" height="285"></li>
-            <li><img src="img/log.png" alt="log" width="289" height="285"></li>
-            <li><img src="img/log.png" alt="log" width="289" height="285"></li>
-        </ul>
-    </div>
-    <div>
-        <button>Order Today!</button>
+        <a class="btn btn-primary btn-lg" href="#">Order Today!</a>
     </div>
     <div>
         <h2>It's better than bad. It's good.</h2>
     </div>
     <footer>
         <div>
-            <p>&copy; 2015 BLAMMO</p>
+            <p>&copy; 2015 BLAMMO!</p>
         </div>
     </footer>
     </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
