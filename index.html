@@ -95,7 +95,14 @@
 <!--End carousel-->
     <div class="container">
         <div id="button">
-        <a class="btn btn-primary btn-lg" href="#">Order Today!</a>
+<!--Removed:        <a class="btn btn-primary btn-lg" href="#">Order Today!</a>-->
+<!--Modal-->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".modal">Order Log Today!</button>
+            <div class="modal fade modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">Unfortunately, Log is on backorder at this time.</div>
+                </div>
+            </div>
         </div>
         <div id="slogan">
             <h2>It's better than bad. It's good.</h2>
